@@ -1,0 +1,77 @@
+
+#header {
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-left: 55px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+p {font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+.navigointi {
+    background-color: rgb(157, 199, 79) ;
+    display: flex;
+    list-style-type: none;
+}
+.navbutton {
+    padding: 10px;
+    border-width: 1px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbutton:hover, .navbutton:active {
+    background-color: red;
+}
+.maapallo {
+    max-width: 49%;
+    max-height: 49%;
+}
+.button {    
+    padding: 10px;
+    border-width: 1px;
+    border-style: none;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+    display:flex;
+    max-height: 100%;
+    flex-wrap: wrap;
+}
+#paateksti{
+    width: 50%;
+    padding-right: 5%;
+    margin-left: 55px;
+
+
+}
+
+#oikea {
+    border-left: 2px solid;
+    width: 33%;
+    height: auto;
+    padding: 5px;
+    padding-left: 5%;
+
+}
+#footer{
+        order: 1;
+        bottom:0;
+        width:100%;
+        max-height:600px;   /* Height of the footer */
+        background:rgb(110, 110, 110);
+        margin: auto;
+        padding: 1%;
+        width: 100%;
+}
